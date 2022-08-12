@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+  <suite thread-count="5" parallel="tests" name="Suite">
+  
+  <test name ="test1">
+  <classes>
+  <class name="com.crm.sdet.Products.CreateProductsTest"/>
+  </classes>
+  </test> 
+  
+  <test name="test2">
+  <classes>
+  <class name= "com.crm.sdet.Campaign.CreateCampaignTest"/>
+  </classes>
+  </test>
+  
+  <test name="test3">
+  <classes>
+  <class name="com.crm.sdet.organization.Createorganizationtest"/>
+  </classes>
+  </test>
+  
+  <test name="test4">
+  <classes>
+  <class name= "com.crm.sdet.Products.DeleteProductsTest"/>
+  </classes>
+  </test>
+  
+  <!-- Test -->
+</suite> <!-- Suite -->
